@@ -1,8 +1,9 @@
 ---
-layout: page
+title: Home
+layout: default
 ---
 <head>
-	
+
 </head>
 <body>
 	Hello GitHub Pages!
