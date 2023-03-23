@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: page
 ---
 <head>
 	<script src="{{ site.baseurl }}{% link assets/js/index.js %}"></script>
