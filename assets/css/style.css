@@ -2,3 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+
+button {
+	cursor: pointer;
+}
