@@ -1,5 +1,6 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
+#remote_theme: pages-themes/hacker@v0.2.0
+#plugins:
+#- jekyll-remote-theme
 
 title: New Neo Wiki (Testing)
+description: Welcome to the NewNeoWiki Testing Site!

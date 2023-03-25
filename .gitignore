@@ -1,0 +1,2 @@
+# Ignore local jekyll server build
+_site/*
