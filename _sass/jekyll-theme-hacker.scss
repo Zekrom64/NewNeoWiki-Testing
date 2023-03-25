@@ -23,8 +23,6 @@ body {
   padding: 0;
   color: $body-foreground;
   background: $body-background url("../images/background.png") 0 0;
-  background-size: contain;
-  background-repeat: repeat;
   font-size: 16px;
   line-height: 1.5;
   font-family: $font-content;
@@ -111,7 +109,7 @@ header h2 {
   width: 100%;
   -webkit-font-smoothing: antialiased;
   background-color: rgba(darken($body-background, 5%), 0.5);
-  padding: 20px;
+  padding: 2%;
 }
 section img {
   max-width: 100%
