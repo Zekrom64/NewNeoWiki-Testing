@@ -69,7 +69,7 @@ header h1 {
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
-  font-family: $font-monospace;
+  font-family: $font-content;
   color: $header;
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
@@ -103,14 +103,16 @@ header h2 {
 #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  padding: 10px;
+  background-color: darken($body-background, 5%);
 }
 section img {
   max-width: 100%
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  font-family: $font-monospace;
+  font-weight: bold;
+  font-family: $font-content;
   color: $header;
   letter-spacing: -0.03em;
 }
@@ -140,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 #main_content h6 {
   font-size: 12px;
   text-transform: uppercase;
-  color: #999;
+  color: $iris;
   margin: 0 0 5px 0;
 }
 
@@ -207,11 +209,9 @@ hr {
 
 .btn {
   display: inline-block;
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3),  rgba(10, 10, 10, 0.3) 100%, rgba(0, 0, 0, 0.3));
   padding: 8px 12px;
   border: 2px solid rgba(0, 0, 0, 0.7);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
-  border-top: 2px solid rgba(0, 0, 0, 1);
   color: $bright-blue;
   font-family: $font-monospace;
   font-weight: bold;
@@ -222,7 +222,7 @@ hr {
 }
 
 .btn:hover {
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6),  rgba(10, 10, 10, 0.8) 100%, rgba(0, 0, 0, 0.8));
   color: $electric-blue
 }
 
