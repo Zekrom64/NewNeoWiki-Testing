@@ -1,2 +1,3 @@
 # Ignore local jekyll server build
 _site/*
+Gemfile.lock
