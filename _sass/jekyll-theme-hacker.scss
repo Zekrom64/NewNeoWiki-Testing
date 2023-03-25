@@ -20,7 +20,7 @@ $font-content: courier new, courier, monospace;
 
 @media only screen and (max-width: 480px) {
   /* horizontal scrollbar for tables if mobile screen */
-  .tablemobile {
+  table, thead, tbody, th, td, tr {
       overflow-x: auto;
       display: block;
   }
