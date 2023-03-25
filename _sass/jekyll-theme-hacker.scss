@@ -18,6 +18,14 @@ $font-content: courier new, courier, monospace;
   }
 }
 
+@media only screen and (max-width: 480px) {
+  /* horizontal scrollbar for tables if mobile screen */
+  .tablemobile {
+      overflow-x: auto;
+      display: block;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
